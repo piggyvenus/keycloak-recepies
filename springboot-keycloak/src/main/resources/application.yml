@@ -24,9 +24,9 @@ spring:
             authorization-grant-type: authorization_code
             redirect-uri: http://localhost:8081/login/oauth2/code/demoapp
             scope:
-              - openid
-              - profile
-              - email
+            - openid
+            - profile
+            - email
         provider:
           keycloak:
-            issuer-uri : http://localhost:8080/realms/springboot
+            issuer-uri: https://keycloak-rhsso.apps.demo.sandbox1207.opentlc.com/realms/springboot
